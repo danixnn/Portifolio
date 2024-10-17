@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#divfoto{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#foto{
+    border-radius: 100px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+#foto:hover{
+    transition: 1s;
+    filter: blur(2px);
+}
+
+.desc{
+    padding: 20px;
+    margin: 5px;
+}
+
+#mtitulos{
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.projetos{ 
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer{
+    margin: 5px;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+#proj{
+    border: 1px solid black;
+    margin: 2px;
+    margin-top: 10px;
+    max-width: 380px;
+    max-height: 380px;
+}
+
+#proj a{
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+#email img{
+    max-height: 50px;
+}
+
+#celular img{
+    max-height: 50px;
+}
